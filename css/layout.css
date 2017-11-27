@@ -1,0 +1,597 @@
+
+
+body {margin:0;}
+
+.popup{display:none;}
+#eLeave {
+    font-family: verdana;
+	font-size: 12px;
+}
+
+.eLeaveHeader {
+    width: 100%;
+  
+}
+	.eLeaveHeader .eLeaveHeadertil {
+		font-size: 40px;
+		padding: 10px 20px;
+		color: white;
+	}
+	
+.tColor {background-color: #f26522 !important;}
+.tColor a, .tColor a:visited {color: #ffffff !important; }
+.fub-tColor::-webkit-file-upload-button, .fub-tColor button {background-color: #f26522 !important;}
+.fColor {color: #f26522 !important;}
+.reColor > button {background:none !important;}
+
+.eLeaveContent{
+	padding: 15px 45px;
+    overflow-y: auto;
+}
+
+
+.eLeaveSub{
+	width: 100%;
+	margin: 0 auto;
+}
+	.eLeaveSub .UserNm {
+		border: 1px solid;
+		width: 275px;
+		height: 30px;
+	}
+		.eLeaveSub .UserNm .EmpIcn {
+			font-size: 23px;
+			padding-right: 15px;
+			padding-top: 2px;
+			padding-left: 8px;
+			color: grey;
+			position: absolute;
+			z-index: -1;
+		}
+			
+		.eLeaveSub .UserNm .EmpName {
+			border: 0;
+			font-size: 17px;
+			outline: none;
+			width: calc(100% - 35px);
+			height: 28px;
+			padding-left: 35px;
+			background: transparent;
+		}
+
+			
+.eLeaveSubTitle {
+	color: black;
+	font-size: 20px;
+	padding: 10px 0px
+} 
+
+.eLeaveSubContent {
+    padding: 0 40px;
+	margin-bottom: 20px;
+}
+
+.Tabler {
+	width: 100%;
+	padding-top: 35px;
+	border-collapse: collapse;
+	table-layout:fixed; 
+}
+
+
+.Prtcol {
+    display:none;
+}
+	
+.Tabler tr.col7 td {
+	padding: 18px 11px;
+	text-align: center;
+	word-wrap: break-word;
+	border: none;
+	border-bottom: 1px solid gainsboro;
+}
+
+.Tabler tr.col7 td.AlgLft {
+	text-align: left !important;
+}
+
+	tr.colth {
+		color: white;
+	}
+	
+		th.lgl1 {
+			padding: 16px 5px;
+            border: none;
+		}
+		
+		td.lgl1 {
+			
+			padding: 18px;
+			text-align: center;
+			word-wrap: break-word;
+            border: none;
+            border-bottom: 1px solid gainsboro;
+		}
+
+
+		
+		td.lgl11 {
+			border-bottom: none;
+			padding: 18px;
+			text-align: center;
+			word-wrap: break-word;
+			color: white;
+            border: none;
+		}
+		
+		.tblBrLeft { border-radius: 5px 0 0 5px;}
+		.tblBrRight { border-radius: 0 5px 5px 0;}
+
+
+.paging td
+{
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+}
+
+.cLeft {
+	padding-top: 35px;
+	float: left;
+	width: calc(100% - 80px)
+}
+
+.cLeft1 {
+	padding-top: 15px;
+	float: left;
+	width: calc(100% - 80px)
+}
+
+.cLeft2 {
+	padding-top: 42px;
+	float: left;
+	width: calc(100% - 80px)
+}
+
+.cLeft3 {
+	padding-top: 22px;
+	float: left;
+	width: calc(100% - 80px)
+}
+
+
+.cRight {
+	float: right;
+	width: 80px;
+}
+
+
+.eLeaveSubContent table.form {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+	
+	.eLeaveSubContent table.form tr{
+		display: inline-block !important;
+	}
+	.eLeaveSubContent table.form tr.col1 { width: 100%; vertical-align: text-top; }
+	.eLeaveSubContent table.form tr.col2 { width: 50%; }
+	.eLeaveSubContent table.form tr.col5 { width: 33%; }
+	.eLeaveSubContent table.form tr.col3 { width: 25%; }
+
+	.eLeaveSubContent table.form tr.col-sub1 { width: 100%; display: table-row-group; }
+	
+	
+	.eLeaveSubContent table.form td {
+		padding: 7px;
+        display: inherit;
+        float: left;
+	}
+	.eLeaveSubContent table.form td.lbl {width: 200px;}
+	.eLeaveSubContent table.form td.lbl1 {width: 165px;}
+    .eLeaveSubContent table.form td.lbl2 {width: 150px;}
+    .eLeaveSubContent table.form td.lbl4 {width: 125px;}
+    .eLeaveSubContent table.form td.lbl3 {width: 80px;}
+    .eLeaveSubContent table.form td.lbl5 {width: 94px;}
+
+        .eLeaveSubContent table.form td.vle1atta {
+            display: inline-block;
+            width: calc(100% - 247px);
+        }
+
+
+    .eLeaveSubContent table.form td.vle2 {
+		width: calc(100% - 212px);
+     
+	}
+        .eLeaveSubContent table.form td.vle2 textarea {
+			height: 100px;
+			width: calc(100% - 14px);
+		}
+	
+	.eLeaveSubContent table.form td.ldl1 {
+		display: block;
+	}
+	
+		.eLeaveSubContent table.form td.ldl1 textarea {
+			font-family: verdana;
+			height: 100px;
+			width: 100%;
+		}
+
+   
+		
+	.eLeaveSubContent table.form td.lhl {
+		border-right: 1px solid;
+	}
+		
+	.eLeaveSubContent table.form td.col-til {
+		
+
+			color: grey;
+	}	
+
+	.serIcon {
+		float: right;
+		color: white;
+		padding: 10px;
+		font-size: 20px;
+		width: 20px;
+		height: 20px;
+		text-align: center;
+		line-height: 20px;
+		box-sizing: content-box;
+		-webkit-box-sizing: content-box;
+    	-moz-box-sizing: content-box;
+
+	}
+
+	
+	.serIcon1 {
+		float: right;
+		color: white;
+		padding: 10px;
+		font-size: 20px;
+		margin-top: 25px;
+		width: 20px;
+		height: 20px;
+		text-align: center;
+		line-height: 20px;
+
+	}
+
+select > .placeholder {
+	display: none;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
+    color: white;
+}
+
+input[type="file"]
+{
+    border: 0;
+    width: calc(100% - 80px);
+    margin: 0;
+    padding: 0;
+}
+
+input.custom-combobox-input.ui-widget.ui-widget-content.ui-state-default.ui-corner-left.ui-autocomplete-input {
+    border: 1px solid;
+}
+
+.ui-widget-header {
+    background: #f26522;
+}
+
+
+.ui-widget-header .ui-icon {
+    -webkit-filter: brightness(100);
+}
+
+.ui-widget-header {
+color: #fff;
+    font-weight: bold;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: white;
+	background: white;
+    font-weight: normal;
+    color: #555;
+	text-align: center;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+
+    border: 1px solid #f26522;
+	font-weight: bold
+  
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	border: 1px solid #f26522;
+}
+
+.Msg{
+    text-align: center;
+    padding-top: 40px
+}
+
+.button{
+	text-align: center;
+    padding-top: 10px;
+	padding-bottom: 15px;
+}
+	.formBtn {
+		color: white; 
+		padding: 5px 15px;
+	}
+
+.entVal {display:none;}
+.takVal {display:none;}
+.balVal {display:none;}
+
+.fa-caret-up {transition: all 0.5s ease;}
+
+.arrRotate {
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+.arrSize {
+    position: absolute;
+    bottom: -11px;
+    right: 0;
+    left: 0;
+	font-size: 30px;
+}
+
+@media print {
+
+    body {
+        zoom:80%;
+     
+    }
+
+    .eLeaveHeader .eLeaveHeadertil {
+		font-size: 33px;
+	}
+
+    .eLeaveContent{
+	    padding: 0px;
+    }
+
+.entVal {display:none !important;}
+.takVal {display:none !important;}
+.balVal {display:none !important;} 
+
+
+    .eLeaveSubContent {
+    padding: 0px;
+	margin-bottom: 0px;
+    }
+
+    .eLeaveSubContent table.form {
+	    display: none;
+    }
+
+       
+    .Prtcol {
+        display:table-cell;
+    }
+
+	tr.colth {
+		color: white;
+	}
+
+    .Tabler td.Hde,th.Hde{
+		display:none;
+	}
+
+    .Tabler td.HdeCol,th.HdeCol{
+		display:none;
+	}
+
+    .Tabler tr.paging {
+        display:none;
+    }
+
+    .serIcon {
+        display:none;
+	}
+
+	.serIcon1 {
+        display:none;
+    }
+
+}
+
+@media (min-width: 501px) and (max-width: 1024px){
+	.eLeaveSubTitle {
+		font-size: 20px;
+	}
+	
+	.eLeaveHeader .eLeaveHeadertil {
+		font-size: 33px;
+	}
+	
+}
+
+@media (max-width: 500px) {
+	
+	            .eLeaveSubContent table.form td.lbl3 {width: 93px;}
+	    	.eLeaveSubContent table.form tr.col5 { width: 58%; }  
+	.popup{
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index:998;
+	display:block;
+}
+.bgpop {
+	background: #ada29a;
+    width: 100%;
+    height: 100%;
+	position:absolute;
+	opacity:0.7;
+}
+
+.PopUpwarn{
+	width: calc(90% - 20px);
+    height: calc(90% - 12px);
+    margin: 0 auto;
+    position: relative;
+    padding: 10px;
+    background: white;
+	opacity:0.8;
+    margin-top: 10px;
+    border: 1px solid;
+    max-height: 360px;
+    font-size: 20px;
+	text-align:center;
+	display: table; 
+
+}
+
+
+.poptext{
+	    display: table-cell;
+    vertical-align: middle;
+}
+	
+	
+	
+	
+	
+	
+	.eLeaveContent{
+		padding: 15px 20px;
+	}
+
+	.eLeaveSubTitle {
+		font-size: 18px;
+	}
+	
+	.eLeaveHeader .eLeaveHeadertil {
+		font-size: 28px;
+	}
+	
+	.eLeaveSubContent {
+		padding: 0;
+	
+	}	
+	.eLeaveSubContent table.form {
+		width: 100%;
+		margin: 0 auto;
+	
+	}
+	
+		.eLeaveSubContent table.form tr.col2 {
+			width: 100%;
+		}
+			
+			.eLeaveSubContent table.form tr td {
+				font-size: 14px;
+				padding: 8px;
+				display: inline-block;
+				
+			}
+			
+				.eLeaveSubContent table.form td.lbl1 {
+					font-size: 14px;
+					width: 100%;
+					font-weight: bold;
+				}
+				
+				.eLeaveSubContent table.form td.lbl2 {
+					font-size: 14px;
+					width: 100%;
+					font-weight: bold;
+				}
+				
+				.eLeaveSubContent table.form td.sym {
+					display: none !important;
+				}
+			
+				.eLeaveSubContent table.form td.vle1 {
+					font-size: 12px;
+					width: 100%;
+	/* 				background-color: #fbfbfb; */
+					border-radius: 8px;
+		/* 			width: calc(100% - 43px); */
+				}
+				
+				.eLeaveSubContent table.form td.vle2 {
+					font-size: 12px;
+					width: 100%;
+					background-color: #fbfbfb;
+					border-radius: 8px;
+					width: calc(100% - 43px);
+				}
+	
+	.eLeaveSubContent table.form td.ldl1 {
+		font-family: verdana;
+		height: 130px;
+		width: auto;
+	}
+		.eLeaveSubContent table.form td.ldl1 textarea {
+			font-family: verdana;					
+			height: 100px;
+			width: 100%;
+			margin-left: 0;
+			margin-top: 10px;
+		}
+		
+	.button{
+		float: left;
+		padding-bottom: 10px;
+		margin: 5px 0px;
+	}
+}
+.eLeaveSubContent table.form tr.col3 td {
+		display: block;
+        float: none;
+	}
+	.btnBox {
+    border: 1px solid;
+	padding: 10px 0;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: calc(100% - 2px);
+
+}
+
+		.btnBoxContent {
+			display: inline-block;
+			transition: all 0.5s ease;
+		}
+
+			.inpBox {
+				width: 30px;
+				height: 18px;
+				transition: all 0.5s ease;
+				position: absolute;
+				right: 5px;
+				border: 0 !important;
+				padding: 3px;
+				text-align: center;
+				outline: none;
+				font-size: 16px;
+				font-weight: bold;
+			}
+
+			.lblTitle {
+				float: left;
+				margin-left: 5px;
+				font-size: 18px;
+				transition: all 0.5s ease;
+				left: 35px;
+				color: grey;
+			}
+
+.clear {clear:both;}
