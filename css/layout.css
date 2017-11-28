@@ -3,16 +3,16 @@
 body {margin:0;}
 
 .popup{display:none;}
-#eLeave {
+#eClaim{
     font-family: verdana;
 	font-size: 12px;
 }
 
-.eLeaveHeader {
+.eClaimHeader {
     width: 100%;
   
 }
-	.eLeaveHeader .eLeaveHeadertil {
+	.eClaimHeader .eClaimHeadertil {
 		font-size: 40px;
 		padding: 10px 20px;
 		color: white;
@@ -24,22 +24,22 @@ body {margin:0;}
 .fColor {color: #f26522 !important;}
 .reColor > button {background:none !important;}
 
-.eLeaveContent{
+.eClaimContent{
 	padding: 15px 45px;
     overflow-y: auto;
 }
 
 
-.eLeaveSub{
+.eClaimSub{
 	width: 100%;
 	margin: 0 auto;
 }
-	.eLeaveSub .UserNm {
+	.eClaimSub .UserNm {
 		border: 1px solid;
 		width: 275px;
 		height: 30px;
 	}
-		.eLeaveSub .UserNm .EmpIcn {
+		.eClaimSub .UserNm .EmpIcn {
 			font-size: 23px;
 			padding-right: 15px;
 			padding-top: 2px;
@@ -49,7 +49,7 @@ body {margin:0;}
 			z-index: -1;
 		}
 			
-		.eLeaveSub .UserNm .EmpName {
+		.eClaimSub .UserNm .EmpName {
 			border: 0;
 			font-size: 17px;
 			outline: none;
@@ -60,13 +60,13 @@ body {margin:0;}
 		}
 
 			
-.eLeaveSubTitle {
+.eClaimSubTitle {
 	color: black;
 	font-size: 20px;
 	padding: 10px 0px
 } 
 
-.eLeaveSubContent {
+.eClaimSubContent {
     padding: 0 40px;
 	margin-bottom: 20px;
 }
@@ -166,55 +166,55 @@ body {margin:0;}
 }
 
 
-.eLeaveSubContent table.form {
+.eClaimSubContent table.form {
 	width: 100%;
 	border-collapse: collapse;
 }
 
 	
-	.eLeaveSubContent table.form tr{
+	.eClaimSubContent table.form tr{
 		display: inline-block !important;
 	}
-	.eLeaveSubContent table.form tr.col1 { width: 100%; vertical-align: text-top; }
-	.eLeaveSubContent table.form tr.col2 { width: 50%; }
-	.eLeaveSubContent table.form tr.col5 { width: 33%; }
-	.eLeaveSubContent table.form tr.col3 { width: 25%; }
+	.eClaimSubContent table.form tr.col1 { width: 100%; vertical-align: text-top; }
+	.eClaimSubContent table.form tr.col2 { width: 50%; }
+	.eClaimSubContent table.form tr.col5 { width: 33%; }
+	.eClaimSubContent table.form tr.col3 { width: 25%; }
 
-	.eLeaveSubContent table.form tr.col-sub1 { width: 100%; display: table-row-group; }
+	.eClaimSubContent table.form tr.col-sub1 { width: 100%; display: table-row-group; }
 	
 	
-	.eLeaveSubContent table.form td {
+	.eClaimSubContent table.form td {
 		padding: 7px;
         display: inherit;
         float: left;
 	}
-	.eLeaveSubContent table.form td.lbl {width: 200px;}
-	.eLeaveSubContent table.form td.lbl1 {width: 165px;}
-    .eLeaveSubContent table.form td.lbl2 {width: 150px;}
-    .eLeaveSubContent table.form td.lbl4 {width: 125px;}
-    .eLeaveSubContent table.form td.lbl3 {width: 80px;}
-    .eLeaveSubContent table.form td.lbl5 {width: 94px;}
+	.eClaimSubContent table.form td.lbl {width: 200px;}
+	.eClaimSubContent table.form td.lbl1 {width: 165px;}
+    .eClaimSubContent table.form td.lbl2 {width: 150px;}
+    .eClaimSubContent table.form td.lbl4 {width: 125px;}
+    .eClaimSubContent table.form td.lbl3 {width: 80px;}
+    .eClaimSubContent table.form td.lbl5 {width: 94px;}
 
-        .eLeaveSubContent table.form td.vle1atta {
+        .eClaimSubContent table.form td.vle1atta {
             display: inline-block;
             width: calc(100% - 247px);
         }
 
 
-    .eLeaveSubContent table.form td.vle2 {
+    .eClaimSubContent table.form td.vle2 {
 		width: calc(100% - 212px);
      
 	}
-        .eLeaveSubContent table.form td.vle2 textarea {
+        .eClaimSubContent table.form td.vle2 textarea {
 			height: 100px;
 			width: calc(100% - 14px);
 		}
 	
-	.eLeaveSubContent table.form td.ldl1 {
+	.eClaimSubContent table.form td.ldl1 {
 		display: block;
 	}
 	
-		.eLeaveSubContent table.form td.ldl1 textarea {
+		.eClaimSubContent table.form td.ldl1 textarea {
 			font-family: verdana;
 			height: 100px;
 			width: 100%;
@@ -222,11 +222,11 @@ body {margin:0;}
 
    
 		
-	.eLeaveSubContent table.form td.lhl {
+	.eClaimSubContent table.form td.lhl {
 		border-right: 1px solid;
 	}
 		
-	.eLeaveSubContent table.form td.col-til {
+	.eClaimSubContent table.form td.col-til {
 		
 
 			color: grey;
@@ -356,7 +356,7 @@ color: #fff;
      
     }
 
-    .eLeaveHeader .eLeaveHeadertil {
+    .eClaimHeader .eClaimHeadertil {
 		font-size: 33px;
 	}
 
@@ -369,12 +369,12 @@ color: #fff;
 .balVal {display:none !important;} 
 
 
-    .eLeaveSubContent {
+    .eClaimSubContent {
     padding: 0px;
 	margin-bottom: 0px;
     }
 
-    .eLeaveSubContent table.form {
+    .eClaimSubContent table.form {
 	    display: none;
     }
 
@@ -410,11 +410,11 @@ color: #fff;
 }
 
 @media (min-width: 501px) and (max-width: 1024px){
-	.eLeaveSubTitle {
+	.eClaimSubTitle {
 		font-size: 20px;
 	}
 	
-	.eLeaveHeader .eLeaveHeadertil {
+	.eClaimHeader .eClaimHeadertil {
 		font-size: 33px;
 	}
 	
@@ -422,8 +422,8 @@ color: #fff;
 
 @media (max-width: 500px) {
 	
-	            .eLeaveSubContent table.form td.lbl3 {width: 93px;}
-	    	.eLeaveSubContent table.form tr.col5 { width: 58%; }  
+	            .eClaimSubContent table.form td.lbl3 {width: 93px;}
+	    	.eClaimSubContent table.form tr.col5 { width: 58%; }  
 	.popup{
 	position:fixed;
 	width:100%;
@@ -467,56 +467,56 @@ color: #fff;
 	
 	
 	
-	.eLeaveContent{
+	.eClaimContent{
 		padding: 15px 20px;
 	}
 
-	.eLeaveSubTitle {
+	.eClaimSubTitle {
 		font-size: 18px;
 	}
 	
-	.eLeaveHeader .eLeaveHeadertil {
+	.eClaimHeader .eClaimHeadertil {
 		font-size: 28px;
 	}
 	
-	.eLeaveSubContent {
+	.eClaimSubContent {
 		padding: 0;
 	
 	}	
-	.eLeaveSubContent table.form {
+	.eClaimSubContent table.form {
 		width: 100%;
 		margin: 0 auto;
 	
 	}
 	
-		.eLeaveSubContent table.form tr.col2 {
+		.eClaimSubContent table.form tr.col2 {
 			width: 100%;
 		}
 			
-			.eLeaveSubContent table.form tr td {
+			.eClaimSubContent table.form tr td {
 				font-size: 14px;
 				padding: 8px;
 				display: inline-block;
 				
 			}
 			
-				.eLeaveSubContent table.form td.lbl1 {
+				.eClaimSubContent table.form td.lbl1 {
 					font-size: 14px;
 					width: 100%;
 					font-weight: bold;
 				}
 				
-				.eLeaveSubContent table.form td.lbl2 {
+				.eClaimSubContent table.form td.lbl2 {
 					font-size: 14px;
 					width: 100%;
 					font-weight: bold;
 				}
 				
-				.eLeaveSubContent table.form td.sym {
+				.eClaimSubContent table.form td.sym {
 					display: none !important;
 				}
 			
-				.eLeaveSubContent table.form td.vle1 {
+				.eClaimSubContent table.form td.vle1 {
 					font-size: 12px;
 					width: 100%;
 	/* 				background-color: #fbfbfb; */
@@ -524,7 +524,7 @@ color: #fff;
 		/* 			width: calc(100% - 43px); */
 				}
 				
-				.eLeaveSubContent table.form td.vle2 {
+				.eClaimSubContent table.form td.vle2 {
 					font-size: 12px;
 					width: 100%;
 					background-color: #fbfbfb;
@@ -532,12 +532,13 @@ color: #fff;
 					width: calc(100% - 43px);
 				}
 	
-	.eLeaveSubContent table.form td.ldl1 {
+	.eClaimSubContent table.form td.ldl1 {
 		font-family: verdana;
 		height: 130px;
 		width: auto;
 	}
-		.eLeaveSubContent table.form td.ldl1 textarea {
+		.eClaimSubContent table.form td.ldl1 textarea {
+		.eClaimSubContent table.form td.ldl1 textarea {
 			font-family: verdana;					
 			height: 100px;
 			width: 100%;
