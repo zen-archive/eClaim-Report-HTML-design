@@ -18,10 +18,10 @@ body {margin:0;}
 		color: white;
 	}
 	
-.tColor {background-color: #f26522 !important;}
+.tColor {background-color: #ca9b24 !important;}
 .tColor a, .tColor a:visited {color: #ffffff !important; }
-.fub-tColor::-webkit-file-upload-button, .fub-tColor button {background-color: #f26522 !important;}
-.fColor {color: #f26522 !important;}
+.fub-tColor::-webkit-file-upload-button, .fub-tColor button {background-color: #ca9b24 !important;}
+.fColor {color: #ca9b24 !important;}
 .reColor > button {background:none !important;}
 
 .eClaimContent{
